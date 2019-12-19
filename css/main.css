@@ -1,0 +1,287 @@
+html {
+  height: 100%;
+  /*So that the 100% divs are full height*/
+}
+
+body {
+  height: 100%;
+  /*So that the 100% divs are full height*/
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0%;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  font-family: Open Sans;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-brand img {
+  /*height: ;*/
+  width: 70%;
+  height: 70% padding-left:;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li {
+  color: #fff !important;
+  font-weight: ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+p {
+  font-family: Open Sans !important;
+  color: #fff;
+  font-size: 1em;
+}
+
+h3 {
+  font-family: Quattrocento !important;
+  color: #fff;
+  font-size: 3.125em;
+}
+
+.jumbotron {
+  /*background-image: url(../images/block.png);*/
+  background-color: #24B6FE;
+  min-height: 100%;
+  /*background-color: transparent;*/
+}
+
+.jumbotron .container {
+  position: relative;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.jumbotron .container img {
+  position: absolute;
+  /*padding-top: 10%;*/
+  max-height: 160%;
+  margin-left: -8%;
+  margin-top: -5%;
+}
+
+.btn-lg {
+  background-color: #02326A !important;
+  border: 0 none;
+  width: 9.75em;
+  height: 3.375em;
+  border-radius: 2.500em;
+  font-size: 1.063em;
+}
+
+.services {
+  padding-top: 3%;
+  background-color: #ffffff;
+  padding-bottom: 3%;
+}
+
+.services .container {
+  margin: auto;
+}
+
+.services .container h2 {
+  color: #6A6A6A !important;
+  font-size: 2em;
+}
+
+.services .container h3 {
+  color: #02326A !important;
+  font-size: 3.125em;
+}
+
+.services .container p {
+  color: #6A6A6A !important;
+}
+
+.services .container .head {
+  font-family: Quattrocento;
+}
+
+.services .container .head h4 {
+  padding-top: 20px;
+}
+
+.services .container .head p {
+  float: right;
+  font-size: 1em;
+}
+
+.services .container .head img {
+  width: 70%;
+  -moz-box-shadow: 3px 6px 50px #ccc;
+  -webkit-box-shadow: 3px 50px 8px #ccc;
+  box-shadow: 3px 6px 50px #ccc;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  margin-bottom: 1.2em;
+}
+
+.services .container .pad {
+  padding-bottom: 20px;
+}
+
+.portfolio {
+  padding-top: 3%;
+  background-color: #F5F5F5;
+  padding-bottom: 3%;
+}
+
+.portfolio .container {
+  margin: auto;
+}
+
+.portfolio .container h2 {
+  color: #6A6A6A !important;
+  font-size: 2em;
+  text-align: center !important;
+}
+
+.portfolio .container h4 {
+  color: #212529 !important;
+  font-size: 1.5em;
+  font-family: Quattrocento;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.portfolio .container p {
+  color: #6A6A6A !important;
+  text-align: center;
+}
+
+.portfolio img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  padding-top: 5%;
+  background-color: #021429;
+  padding-bottom: 1%;
+}
+
+.footer .container {
+  margin: auto;
+}
+
+.footer .container h2 {
+  color: #f9f9f9 !important;
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.footer .container h4 {
+  color: #f9f9f9 !important;
+  font-size: 1.5em;
+  font-family: Quattrocento;
+  padding-top: 20px;
+}
+
+.footer .container p {
+  color: #b5b5b5 !important;
+}
+
+.footer .container .head {
+  font-family: Quattrocento;
+}
+
+.footer .container .head h4 {
+  padding-top: 20px;
+}
+
+.footer .container .head p {
+  font-size: 1em;
+}
+
+.footer .container .head img {
+  padding-left: 60px;
+  padding-top: 30px;
+}
+
+.portfolio h2 {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.portfolio h2:before,
+.portfolio h2:after {
+  content: '';
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.portfolio h2:after {
+  margin: 0 0 0 20px;
+}
+
+.line h2 {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.line h2:after {
+  content: '';
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.line h2:after {
+  margin: 0 0 0 20px;
+}
+
+.line2 h2 {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.line2 h2:after {
+  content: '';
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.line2 h2:after {
+  margin: 0 0 0 20px;
+}
+
+a:hover {
+  background-color: #02326A;
+}
+
+.map {
+  width: 800;
+  height: 350;
+}

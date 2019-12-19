@@ -1,0 +1,108 @@
+@media screen and (max-width: 360px) {
+  .jumbotron {
+    min-height: 120%;
+  }
+  .jumbotron .container img {
+    position: absolute;
+    /* padding-top: 10%; */
+    max-height: 190%;
+    margin-left: -65%;
+    margin-top: 30%;
+    width: 80%;
+  }
+  .services .container .head img {
+    width: 40%;
+    -moz-box-shadow: 3px 6px 50px #ccc;
+    -webkit-box-shadow: 3px 50px 8px #ccc;
+    box-shadow: 3px 6px 50px #ccc;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    margin-bottom: 1.2em;
+  }
+  .line h2 {
+    width: 90%;
+  }
+  .line2 h2 {
+    width: 90%;
+  }
+  .footer .container .head img {
+    padding-left: 0px;
+    padding-top: 30px;
+    align-items: left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    min-height: 120%;
+  }
+  .jumbotron .container img {
+    position: absolute;
+    /* padding-top: 10%; */
+    max-height: 190%;
+    margin-left: -65%;
+    margin-top: 30%;
+    width: 80%;
+  }
+  .services .container .head img {
+    width: 40%;
+    -moz-box-shadow: 3px 6px 50px #ccc;
+    -webkit-box-shadow: 3px 50px 8px #ccc;
+    box-shadow: 3px 6px 50px #ccc;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    margin-bottom: 1.2em;
+  }
+  .line h2 {
+    width: 90%;
+  }
+  .line2 h2 {
+    width: 90%;
+  }
+  .footer .container .head img {
+    padding-left: 0px;
+    padding-top: 30px;
+    align-items: left;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jumbotron {
+    min-height: 80%;
+  }
+  .jumbotron .container img {
+    position: absolute;
+    /* padding-top: 10%; */
+    max-height: 170%;
+    margin-left: -45%;
+    margin-top: 10%;
+    width: 80%;
+  }
+  .services .container .head img {
+    width: 100%;
+    -moz-box-shadow: 3px 6px 50px #ccc;
+    -webkit-box-shadow: 3px 50px 8px #ccc;
+    box-shadow: 3px 6px 50px #ccc;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    margin-bottom: 1.2em;
+  }
+  .line h2 {
+    width: 90%;
+  }
+  .line2 h2 {
+    width: 50%;
+  }
+  .footer .container .head img {
+    padding-left: 0px;
+    padding-top: 30px;
+    align-items: left;
+  }
+  .map {
+    width: 300;
+    height: 550;
+  }
+}
