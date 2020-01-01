@@ -28,16 +28,16 @@ body {
 .navbar-brand img {
   /*height: ;*/
   width: 70%;
-  height: 70% padding-left:;
+  height: 70% padding-left;
 }
 
 .navbar-nav li {
   padding: 0 10px;
+  color: #fff !important;
 }
 
-.navbar-nav li {
-  color: #fff !important;
-  font-weight: ;
+.navbar-nav li a:hover {
+  background-color: #02326A;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -75,15 +75,18 @@ h3 {
   max-height: 160%;
   margin-left: -8%;
   margin-top: -5%;
+
+  pointer-events:none; /*since it overlaps contact button. so the click event will 'fall through' it and the button will register it. Otherwise cannot click*/
 }
 
-.btn-lg {
-  background-color: #02326A !important;
+.jumbotron .container .btn-lg {
+  background-color: #02326A;
   border: 0 none;
-  width: 9.75em;
-  height: 3.375em;
-  border-radius: 2.500em;
-  font-size: 1.063em;
+  /* width: 9.75em;
+  height: 3.375em; */
+  /* border-radius: 2.5em; */
+  font-size: 1em;
+  /* font-size: 1.063em; */
 }
 
 .services {
@@ -275,10 +278,6 @@ h3 {
 
 .line2 h2:after {
   margin: 0 0 0 20px;
-}
-
-a:hover {
-  background-color: #02326A;
 }
 
 .map {
